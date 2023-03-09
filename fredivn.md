@@ -16,4 +16,25 @@ Desarrollo de aplicaciones web para la Secretaría de Educación del estado aume
 * Creatividad.
 * Adobe xd y Photoshop.
 
+### Comandos más utilizados
+| nombre | descripción                                          |
+|--------|------------------------------------------------------|
+| ls     | Muestra un listado de archivos del directorio actual |
+| cd     | Cambiar de directorio                                |
+| pwd    | Imprime la ubicación actual                          |
+| code   | Abre Visual Studio Code                              |
+| cat    | Imprime el contenido de un archivo                   |
+| sudo   | Ejecuta como administrador                           |
+| mkdir  | Crear una carpeta                                    |
+| cl     | Limpiar la terminal                                  |
+| uptime | Muestra la hora actual                               |
+***
+### Alias más utilizados
+```bash
+alias cl='clear'
+```
+```bash
+alias mostused='history | awk '\''{print $2}'\''| sort | uniq -c | sort -nr | head -n 10'
+```
+
 🦑[Gitub](https://github.com/Alfredo2510)
